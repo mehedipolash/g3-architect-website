@@ -242,6 +242,11 @@ footer{
         flex-direction: column;
     }
 
+    .nav-links{
+        gap: 50px;
+        font-size: 2rem;
+    }
+
     .team-img-container, 
     .facts-container, 
     .sponsor-companies
