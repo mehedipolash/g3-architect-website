@@ -122,7 +122,8 @@ main > section{
 /* features section related styles */
 
 .features{
-    gap: 140px;
+    gap: 120px;
+    
 }
 
 #feature-section-title{
@@ -159,6 +160,8 @@ main > section{
 
 .featured-architect img{
     width: 100%;
+    margin-top: 50px;
+   
 }
 
 /* some facts related styles */
@@ -264,8 +267,26 @@ footer{
         margin-top: 20px;
         margin-left: 20px;
     }
-    footer{
+    /* footer{
      display: none;
+    } */
+
+    footer {
+        padding: 10px;
+        margin: 0 auto; /* Center horizontally */
+        width: 100%;
+        max-width: 100%; /* Prevent overflowing */
+        box-sizing: border-box; /* Include padding and borders */
+        overflow: hidden; /* Ensure no content spills outside */
+        border: 1px solid #424242;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .footer-description {
+        padding: 5px;
+        text-align: center;
+        word-wrap: break-word; /* Break long words */
+        box-sizing: border-box;
     }
     
 }
@@ -289,8 +310,23 @@ footer{
         margin-top: 20px;
         margin-left: 20px;
     }
-    footer{
-      display: none;
+   
+
+   footer {
+        padding: 15px;
+        margin: 0 auto; /* Center horizontally */
+        width: 100%;
+        max-width: 100%; /* Prevent overflowing */
+        box-sizing: border-box; /* Include padding and borders */
+        overflow: hidden; /* Ensure no content spills outside */
+        border: 1px solid #424242;
     }
+    .footer-description {
+        padding: 10px;
+        text-align: center; /* Center the text */
+        word-wrap: break-word; /* Break long words */
+        box-sizing: border-box;
+    }
+
     
 }
